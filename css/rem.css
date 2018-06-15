@@ -42,6 +42,6 @@ body {
     font-size: 10px;
 }
 
-input:focus {   /*消除input点击弹出框*/
+input:focus { /*消除input点击弹出框*/
     outline: none;
 }

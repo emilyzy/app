@@ -149,10 +149,10 @@
 
 #header-submit {
     width: 0.67rem;
-    height: .33rem;
+    height: .32rem;
     float: left;
     margin-top: 0.04rem;
-    border-radius: 50%;
+    border-radius: .16rem;
     overflow: hidden;
     background: url(../img/explore.png) no-repeat center/100% auto;
     border: none;
@@ -482,13 +482,13 @@
     border-left: 1px dashed #dcdcdc;
 }
 
-.header-bottom-info{
+.header-bottom-info {
     height: 0.6rem;
     width: 2.62rem;
     margin-bottom: 0.1rem;
 }
 
-.header-bottom-info .info-num{
+.header-bottom-info .info-num {
     height: 0.6rem;
     width: 1.02rem;
     float: left;
@@ -497,14 +497,14 @@
     text-align: center;
 }
 
-.header-bottom-info .info-divider{
+.header-bottom-info .info-divider {
     height: 0.5rem;
     margin-top: 0.05rem;
     border-left: 1px dashed #dcdcdc;
     float: left;
 }
 
-.header-bottom-info .info-words{
+.header-bottom-info .info-words {
     height: 0.6rem;
     width: 1.50rem;
     float: left;
@@ -512,6 +512,300 @@
     line-height: 0.6rem;
     text-align: center;
 }
+
+/*******************容器内的布局********************/
+#container {
+    width: 100%;
+    background-color: #f4f4f4;
+}
+
+/***********************第一部分*********************/
+#body-Recommended-works {
+    height: 10.92rem;
+    width: 7.03rem;
+    margin: 0 auto;
+    background-color: #f4f4f4;
+    position: relative;
+}
+
+#body-one-title {
+    height: 0.39rem;
+    width: 100%;
+    background: url("../img/1_07.png") no-repeat left / auto 100%;
+}
+
+/*#body-one-title-line{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0.05rem;
+    width: 0.35rem;
+    border: 0.025rem solid #ebc243;
+    border-radius: 0.025rem;
+}
+#body-one-title-circle{
+    position: absolute;
+    top:0;
+    left: 0.4rem;
+    height: 0.05rem;
+    width: 0.05rem;
+    border-radius: 0.025rem;
+    border: 0.025rem solid #ebc243;
+}*/
+#body-one-title-words {
+    height: 0.39rem;
+    width: 100%;
+    margin-left: 1.22rem;
+}
+
+#body-one-title h4 {
+    line-height: 15px;
+    padding-top: 0.15rem;
+}
+
+/*#body-one-title h1 {
+    font-size: 17px;
+    padding-top: 0;
+}*/
+
+.body-one-head {
+    height: 1rem;
+    width: 100%;
+}
+
+.body-one-head li {
+    width: 1.76rem;
+    height: 0.52rem;
+    margin: 0.24rem 0.25rem 0 0;
+    padding-left: 0.25rem;
+    float: left;
+    line-height: 28px;
+}
+
+.body-one-head li:nth-child(1) {
+    background: url("../img/HomePage_10.png") no-repeat center/ 100% auto;
+}
+
+.body-one-head li:nth-child(2) {
+    background: url("../img/HomePage-响应式原_13.png") no-repeat center/ 100% auto;
+}
+
+.body-one-head li:nth-child(3) {
+    background: url("../img/HomePage-响应式原_15.png") no-repeat center/ 100% auto;
+}
+
+#body-one-main {
+    width: 100%;
+    height: 8.49rem;
+}
+
+.body-one-main-item {
+    width: 3.515rem;
+    height: 4.26rem;
+    /*display: flex;
+    word-wrap: break-word;*/
+    float: left;
+}
+
+.body-one-main-item:nth-child(2n-1) {
+    padding-top: 0.24rem;
+    padding-right: 0.11rem;
+}
+
+.body-one-main-item:nth-child(2n) {
+    padding-top: 0.24rem;
+    padding-left: 0.11rem;
+}
+
+.body-one-item-pic {
+    width: 3.40rem;
+    height: 2.39rem;
+    border-radius: 0.09rem;
+    background: url("../img/one-pic_07.jpg") no-repeat center / 100% auto;
+}
+
+.body-one-item-words {
+    width: 3.4rem;
+    height: 1.63rem;
+}
+
+.body-one-words-left {
+    width: 2.4rem;
+    height: 100%;
+    float: left;
+}
+
+.body-one-words-right {
+    width: 1rem;
+    height: 100%;
+    float: left;
+}
+
+.one-words-left-title {
+    height: 0.42rem;
+    width: 100%;
+    padding-top: 0.12rem;
+}
+
+.one-words-left-title p {
+    margin-left: 0.15rem;
+    line-height: 0.3rem;
+}
+
+.one-words-left-describe {
+    height: 0.73rem;
+    width: 100%;
+}
+
+.one-words-left-describe p {
+    margin-left: 0.15rem;
+    line-height: 0.365rem;
+    font-size: 13px;
+    color: #606060;
+}
+
+.one-view-counts {
+    height: 0.52rem;
+    width: 100%;
+    padding-left: 0.15rem;
+    background: black;
+}
+
+.body-one-words-right-circle {
+    height: 0.86rem;
+    width: 0.86rem;
+    border: 3px solid #dddddd;
+    border-radius: 50%;
+    margin-top: 0.4rem;
+    background: url("../img/Firefox.png") no-repeat center/100% auto;
+    overflow: hidden;
+}
+
+#body-one-main-bottom {
+    height: 1.07rem;
+    width: 100%;
+}
+
+/************************第二部分*******************/
+#body-Recommended-article {
+    height: 8.55rem;
+    width: 7.03rem;
+    margin: 0 auto;
+}
+
+#body-two-title {
+    height: 0.41rem;
+    width: 100%;
+    background: url("../img/2_07.png") no-repeat left / auto 100%;
+}
+
+#body-two-title-words {
+    height: 0.41rem;
+    width: 100%;
+    margin-left: 1.27rem;
+}
+
+#body-two-title h4 {
+    line-height: 15px;
+    padding-top: 0.14rem;
+}
+
+#body-two-main {
+    padding-top: 0.19rem;
+    height: 6.43rem;
+    width: 100%;
+}
+
+.body-two-main-item {
+    margin-bottom: 0.19rem;
+    height: 3.01rem;
+    width: 100%;
+    background: white;
+}
+
+.body-two-left {
+    height: 100%;
+    width: 2.39rem;
+    float: left;
+    background: url("../img/people_07.jpg") no-repeat center / 100% auto;
+}
+
+.body-two-right {
+    height: 100%;
+    width: 4.64rem;
+    padding-left: 0.22rem;
+    float: left;
+}
+
+.body-two-right-title {
+    height: 0.78rem;
+    width: 4.24rem;
+}
+
+.body-two-right-title h5 {
+    font-weight: normal;
+    color: #434343;
+}
+
+.body-two-right-title h2 {
+    color: #33aee2;
+    font-weight: normal;
+}
+
+.body-two-right-describe {
+    height: 1.35rem;
+    width: 4.24rem;
+}
+
+.body-two-right-describe h3 {
+    font-weight: normal;
+    line-height: 20px;
+    color: #434343;
+}
+
+.body-two-right-author {
+    height: 0.88rem;
+    width: 4.24rem;
+    border-top: 1px dashed #a6a6a6;
+}
+
+/********************第三部分 推荐设计师***********************/
+#body-Recommended-designer{
+    height: 12.20rem;
+    width: 100%;
+    background: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+/*************************帮助部分 最后会删掉*********************/
+#help {
+    height: 7rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
