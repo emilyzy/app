@@ -771,18 +771,37 @@
 
 /********************第三部分 推荐设计师***********************/
 #body-Recommended-designer{
-    height: 12.20rem;
+    height: 12.49rem;
     width: 100%;
     background: #ffffff;
+    padding: 0.46rem 0.42rem 0 0.25rem;
 }
+#body-three-title{
+    height: 0.42rem;
+    width: 100%;
+    background: url("../img/3_07.png") no-repeat left / auto 100%;
+}
+#body-three-title-words {
+    height: 0.42rem;
+    width: 100%;
+    margin-left: 1.62rem;
+}
+#body-three-title h4 {
+    line-height: 15px;
+    padding-top: 0.13rem;
+}
+#body-three-main{
+    width: 6.69rem;
+    height: 11.63rem;
+    background: yellow;
+    margin-left: 0.15rem;
+}
+#body-three-main-one{
 
+}
+#body-three-main-two{
 
-
-
-
-
-
-
+}
 
 /*************************帮助部分 最后会删掉*********************/
 #help {
