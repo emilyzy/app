@@ -96,7 +96,7 @@
 }
 
 #header-divider {
-    width: 2.5rem;
+    width: 2.15rem;
     height: 1px;
     background: #d3d3d3;
     margin: 0.18rem 0 0.1rem 0.12rem;
@@ -250,34 +250,6 @@
     border-top: 1px dashed #707577;
 }
 
-/*
-#header-pic {
-    height: 3.28rem;
-    width: 100%;
-    overflow: hidden;
-    position: absolute;
-}
-
-#header-pic img {
-    width: 100%;
-    height: auto;
-}
-#header-pic-small{
-    height: 3.04rem;
-    width: 5.89rem;
-    overflow: hidden;
-    position: relative;
-    top: 0.72rem;
-    z-index: 100;
-    left: 0.87rem;
-    !*transform: translateY(-2.56rem) translateX(0.87rem);*!
-}
-#header-pic-small img{
-    height: auto;
-    width: 100%;
-}
-*/
-
 #header-banner {
     height: 3.28rem;
     width: 100%;
@@ -415,7 +387,7 @@
 }
 
 /*
-!*--------------暂未实现如何显示底部图片颜色 plan2-----------------*!
+!*--------------显示底色 plan2-----------------*!
 .circle-one {
     width: 0.15rem;
     height: 0.15rem;
@@ -534,24 +506,6 @@
     background: url("../img/1_07.png") no-repeat left / auto 100%;
 }
 
-/*#body-one-title-line{
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 0.05rem;
-    width: 0.35rem;
-    border: 0.025rem solid #ebc243;
-    border-radius: 0.025rem;
-}
-#body-one-title-circle{
-    position: absolute;
-    top:0;
-    left: 0.4rem;
-    height: 0.05rem;
-    width: 0.05rem;
-    border-radius: 0.025rem;
-    border: 0.025rem solid #ebc243;
-}*/
 #body-one-title-words {
     height: 0.39rem;
     width: 100%;
@@ -563,16 +517,75 @@
     padding-top: 0.15rem;
 }
 
-/*#body-one-title h1 {
-    font-size: 17px;
-    padding-top: 0;
-}*/
-
 .body-one-head {
     height: 1rem;
     width: 100%;
 }
 
+#one-filter {
+    width: 2.61rem;
+    height: 1.81rem;
+    background: #ffffff;
+    position: absolute;
+    left: 0.87rem;
+    top: 1.34rem;
+    box-shadow: 0 0 0 1px #bfac2b;
+    opacity: 0.92;
+    border-radius: 0.04rem;
+    z-index: 99;
+}
+
+#one-filter:before {
+    content: "";
+    width: 0.08rem;
+    height: 0.08rem;
+    position: absolute;
+    left: 0.16rem;
+    top: -0.04rem;
+    transform: rotate(45deg);
+    box-shadow: -1px -1px 0 0.005rem #bfac2b;
+    background: #ffffff;
+}
+#one-filter p{
+    color: #4f5051;
+}
+.one-filter-item{
+    font-size: 14px;
+    width: 1.7rem;
+    height: 0.5rem;
+    margin: 0.1rem auto;
+    display: flex;
+    line-height: 20px;
+    justify-content: space-between;
+}
+.one-filter-item:nth-child(1) .one-filter-circle{
+    margin-top: 3px;
+    width: 0.19rem;
+    height: 0.19rem;
+    border-radius: 50%;
+    background: #30a8f4;
+}
+.one-filter-item:nth-child(2) .one-filter-circle{
+    margin-top: 3px;
+    width: 0.19rem;
+    height: 0.19rem;
+    border-radius: 50%;
+    background: #ebc243;
+}
+.one-filter-item:nth-child(3) .one-filter-circle{
+    margin-top: 3px;
+    width: 0.19rem;
+    height: 0.19rem;
+    border-radius: 50%;
+    background: #ebc243;
+}
+#one-filter-divider{
+    position: absolute;
+    top: 0.55rem;
+    left: 0.3rem;
+    width: 2rem;
+    border-bottom: dashed 1px #2f2f2f;
+}
 .body-one-head li {
     width: 1.76rem;
     height: 0.52rem;
@@ -602,8 +615,6 @@
 .body-one-main-item {
     width: 3.515rem;
     height: 4.26rem;
-    /*display: flex;
-    word-wrap: break-word;*/
     float: left;
 }
 
@@ -667,7 +678,8 @@
 .one-view-counts {
     height: 0.52rem;
     width: 100%;
-    padding-left: 0.15rem;
+    padding-top: 4px;
+    padding-left: 0.2rem;
     background: url("../img/star_07.png") center/100% auto;
 }
 
@@ -741,6 +753,7 @@
     width: 4.64rem;
     padding-left: 0.22rem;
     float: left;
+    position: relative;
 }
 
 .body-two-right-title {
@@ -773,6 +786,34 @@
     height: 0.88rem;
     width: 4.24rem;
     border-top: 1px dashed #a6a6a6;
+}
+
+.body-two-right-author .bg {
+    height: 0.88rem;
+    width: 4.24rem;
+    position: absolute;
+    left: 0;
+    background: url("../img/auther01_07.png") no-repeat left / 100% auto;
+}
+
+.body-two-right-author p {
+    position: absolute;
+    left: 0.7rem;
+    color: #545454;
+}
+
+.save {
+    display: flex;
+    position: absolute;
+    line-height: 15px;
+    font-size: 12px;
+    color: #545454;
+    left: 2.9rem;
+    top: 2.57rem;
+}
+
+.save h5 {
+    margin-right: 29px;
 }
 
 .author-pic {
