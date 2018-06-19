@@ -668,7 +668,13 @@
     height: 0.52rem;
     width: 100%;
     padding-left: 0.15rem;
-    background: black;
+    background: url("../img/star_07.png") center/100% auto;
+}
+
+.one-view-counts p {
+    font-size: 12px;
+    color: #a0a0a0;
+    margin: 0 0 0 8px;
 }
 
 .body-one-words-right-circle {
@@ -769,48 +775,436 @@
     border-top: 1px dashed #a6a6a6;
 }
 
+.author-pic {
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 50%;
+    border: 1px solid #dddddd;
+    margin-top: 0.15rem;
+    background: url("../img/Firefox.png") no-repeat center / 100% auto;
+}
+
 /********************第三部分 推荐设计师***********************/
-#body-Recommended-designer{
+#body-Recommended-designer {
     height: 12.49rem;
     width: 100%;
     background: #ffffff;
     padding: 0.46rem 0.42rem 0 0.25rem;
 }
-#body-three-title{
+
+#body-three-title {
     height: 0.42rem;
     width: 100%;
     background: url("../img/3_07.png") no-repeat left / auto 100%;
 }
+
 #body-three-title-words {
     height: 0.42rem;
     width: 100%;
     margin-left: 1.62rem;
 }
+
 #body-three-title h4 {
     line-height: 15px;
     padding-top: 0.13rem;
 }
-#body-three-main{
+
+#body-three-main {
     width: 6.69rem;
     height: 11.63rem;
-    background: yellow;
     margin-left: 0.15rem;
 }
-#body-three-main-one{
 
-}
-#body-three-main-two{
-
-}
-
-/*************************帮助部分 最后会删掉*********************/
-#help {
-    height: 7rem;
+#body-three-main-one {
+    height: 9.82rem;
+    width: 6.70rem;
 }
 
+.body-three-one-item {
+    width: 3.35rem;
+    height: 4.91rem;
+    float: left;
+    position: relative;
+}
 
+#three-divider {
+    width: 6rem;
+    margin-left: 0.4rem;
+    height: 10px;
+    border-bottom: #2f2f2f dashed 1px;
+    float: left;
+}
 
+.three-one {
+    height: 3.22rem;
+    width: 3.35rem;
+    position: absolute;
+    background: url("../img/three_10.png") no-repeat center / 100% auto;
+}
 
+.body-three-item-pic {
+    height: 3.22rem;
+    width: 3.35rem;
+}
+
+.three-two {
+    height: 3.5rem;
+    width: 3.5rem;
+    position: absolute;
+    background: url("../img/three1_10.png") no-repeat center / 100% auto;
+}
+
+.three-circle {
+    width: 2.14rem;
+    height: 2.14rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 0.62rem;
+    left: 0.6rem;
+    overflow: hidden;
+    background: url("../img/Firefox.png") no-repeat center/100% auto;
+}
+
+.body-three-item-words {
+    width: 3.35rem;
+    height: 1.65rem;
+    padding-left: 0.5rem;
+    background: url("../img/three1_12.png") no-repeat center / 100% auto;
+}
+
+.body-three-item-words p {
+    color: #828282;
+    position: absolute;
+    /*left: 0.5rem;*/
+    top: 3.6rem;
+    width: 2.5rem;
+}
+
+.body-three-item-words h6 {
+    color: #828282;
+    float: left;
+    margin-left: 0.35rem;
+    margin-top: 1.2rem;
+}
+
+#body-three-main-two {
+    padding-top: 0.2rem;
+    width: 6.70rem;
+    height: 1.80rem;
+}
+
+#become-us {
+    margin: 0 auto;
+    width: 3.06rem;
+    height: 0.79rem;
+    background: url("../img/4_3.png") no-repeat center/100% auto;
+}
+
+/**************************第四部分***********************/
+
+#set-tag {
+    height: 15.45rem;
+    width: 100%;
+    background: #ffffff;
+    margin: 0 auto;
+    padding: 0rem 0.25rem 0 0.25rem;
+}
+
+#body-four-title {
+    height: 0.42rem;
+    width: 100%;
+    background: url("../img/4_4.png") no-repeat left / auto 100%;
+}
+
+#body-four-title-words {
+    height: 0.42rem;
+    width: 100%;
+    margin-left: 1.5rem;
+}
+
+#body-four-title h4 {
+    line-height: 15px;
+    padding-top: 0.1rem;
+}
+
+#body-four-main {
+    width: 100%;
+    height: 13.97rem;
+    margin: 0.3rem 0 0 0;
+}
+
+#four-one {
+    position: relative;
+    width: 100%;
+    height: 6.93rem;
+    background: url("../img/3_1_07.jpg") no-repeat center /100% auto;
+}
+
+#four-one-top {
+    width: 100%;
+    height: 1.66rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.72) url("../img/3_2_07.png") no-repeat center/100% auto;
+    z-index: 5;
+}
+
+#four-one-top h1 {
+    width: 1.5rem;
+    height: 20px;
+    position: absolute;
+    top: 0.1rem;
+    right: 0;
+    color: #ffc822;
+}
+
+#four-one-top h2 {
+    color: white;
+    position: absolute;
+    left: 0.1rem;
+    line-height: 40px;
+}
+
+#four-one-top h6 {
+    width: 5.5rem;
+    color: #ebebeb;
+    font-weight: normal;
+    position: absolute;
+    left: 0.1rem;
+    top: 0.8rem;
+    line-height: 18px;
+}
+
+#four-two {
+    height: 7.05rem;
+    width: 100%;
+}
+
+.four-two-item img {
+    position: relative;
+    float: left;
+    height: 3.525rem;
+    width: 100%;
+}
+
+#four-two-words1 {
+    position: absolute;
+    left: 4rem;
+    width: 3rem;
+}
+
+#four-two-words1 h2 {
+    margin-top: 0.2rem;
+    color: #777777;
+    height: 1.20rem;
+    line-height: 0.5rem;
+    font-size: 15px;
+}
+
+#four-two-words1 h6 {
+    color: #aaa9a9;
+    font-weight: normal;
+    line-height: 0.4rem;
+}
+
+#four-two-words1 h1 {
+    color: #07b0d5;
+    line-height: 0.9rem;
+    font-size: 22px;
+}
+
+#four-two-words2 {
+    margin-top: 3.5rem;
+    position: absolute;
+    left: 0.5rem;
+    width: 3rem;
+}
+
+#four-two-words2 h2 {
+    margin-top: 0.2rem;
+    color: #ffffff;
+    height: 1.20rem;
+    line-height: 0.5rem;
+    font-size: 15px;
+}
+
+#four-two-words2 h6 {
+    color: #aaa9a9;
+    font-weight: normal;
+    line-height: 0.4rem;
+}
+
+#four-two-words2 h1 {
+    color: #07b0d5;
+    line-height: 0.9rem;
+    font-size: 22px;
+}
+
+/****************************第五部分*************************/
+
+#partner {
+    height: 6.82rem;
+    width: 100%;
+    background: #ffffff;
+    margin: 0 auto;
+}
+
+#body-five-title {
+    margin-left: 0.25rem;
+    height: 0.45rem;
+    width: 7rem;
+    background: url("../img/4_5.png") no-repeat left / auto 100%;
+}
+
+#body-five-title-words {
+    height: 0.2rem;
+    width: 100%;
+    margin-left: 1.9rem;
+}
+
+#body-five-title h4 {
+    line-height: 15px;
+    padding-top: 0.14rem;
+}
+
+#body-five-main {
+    width: 100%;
+    height: 6.38rem;
+    margin: 0 0 0 0;
+}
+
+#body-five-main-one {
+    height: 4.47rem;
+    width: 100%;
+    background: url("../img/com_06.jpg") no-repeat center /100% auto;
+}
+
+#body-five-main-two {
+    height: 1.80rem;
+}
+
+#partners {
+    margin: 0.1rem auto;
+    width: 3.06rem;
+    height: 0.79rem;
+    background: url("../img/5_1.png") no-repeat center/100% auto;
+}
+
+/*******************************底部**************************/
+
+#bottom {
+    width: 100%;
+    height: 5.75rem;
+    background: #2d2d2d;
+    position: relative;
+}
+
+#logo1 {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: absolute;
+    top: 0.4rem;
+    left: 1.8rem;
+    background: url("../img/bottom1_09.png") no-repeat center/100% auto;
+}
+
+#bottom-point1 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    border: solid 2px #5a5a5a;
+    position: absolute;
+    left: 3.37rem;
+    top: 0.4rem
+}
+
+#bottom-point2 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    border: solid 2px #5a5a5a;
+    position: absolute;
+    left: 3.37rem;
+    top: 1.8rem
+}
+
+#bottom-divider {
+    height: 1.4rem;
+    width: 1px;
+    position: absolute;
+    top: 0.45rem;
+    left: 3.4rem;
+    border-right: dashed 1px #5a5a5a;
+}
+
+#logo2 {
+    width: 1.4rem;
+    height: 1.4rem;
+    background: #25b0ff;
+    position: absolute;
+    top: 0.45rem;
+    right: 1.9rem;
+}
+
+#bottom-two {
+    height: 1.11rem;
+    width: 5rem;
+    position: absolute;
+    top: 2.1rem;
+    left: 1.66rem;
+}
+
+#bottom-two p {
+    width: 1.6rem;
+    float: left;
+    line-height: 19px;
+    font-size: 13px;
+    color: #7b7a7a;
+}
+
+#bottom-three {
+    width: 6rem;
+    height: 2.6rem;
+    position: absolute;
+    bottom: 0;
+    left: 0.8rem;
+}
+
+#bottom-three-word {
+    text-align: center;
+    line-height: 23px;
+    font-size: 13px;
+    color: #7b7a7a;
+    margin-bottom: 0.2rem;
+}
+
+#bottom-three-pic {
+    width: 2.3rem;
+    height: 0.7rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pic-item {
+    width: 0.6rem;
+    height: 0.6rem;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.pic-item:nth-child(1) {
+    background: #5ccc26 url("../img/wechat.png") no-repeat center/90% auto;
+}
+
+.pic-item:nth-child(2) {
+    background: #2a77f6 url("../img/qq.png") no-repeat center/60% auto;
+}
+
+.pic-item:nth-child(3) {
+    background: #f59421 url("../img/weibo.png") no-repeat center/85% auto;
+}
 
 
 
